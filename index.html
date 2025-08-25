@@ -4,6 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deshi Dealse</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <!-- tailwind & daisy ui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body></body>
+  <body>
+    <header class="shadow">
+      <div class="flex justify-center items-center gap-2">
+        <img class="w-12 mt-2" src="./assets/logo.png" alt="" />
+        <div>
+          <h1 class="text-4xl text-pink-500">
+            Deshi <span class="font-bold">Deals</span>
+          </h1>
+          <p class="text-sm text-[#797075]">Cheap Price , Best Quality</p>
+        </div>
+      </div>
+    </header>
+    <main class="mt-4">
+      <!-- banner section -->
+      <section class="bg-linear-to-b from-[#ffffff] to-[#f6ddea] h-[705px]">
+        <div class="flex flex-col justify-center items-center mt-20">
+          <h1 class="text-center font-bold text-5xl">
+            Purchase TK 200 or above & get <br />
+            <span class="text-pink-500">20% off</span>
+          </h1>
+          <div class="flex items-center gap-16 mt-20">
+            <p class="font-medium text-2xl">Use Promo Code</p>
+            <button class="btn btn-secondary font-medium text-xl w-[200px]">
+              SELL200
+            </button>
+          </div>
+          <img class="w-[900px]" src="./assets/hero-bg.png" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
